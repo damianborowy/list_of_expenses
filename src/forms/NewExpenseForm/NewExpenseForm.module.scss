@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  gap: 32px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  gap: 16px;
+
+  & > label {
+    width: 150px;
+    margin-top: 8px;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 22px;
+}
+
+.submitButton {
+  width: 64px;
+  height: 32px;
+}

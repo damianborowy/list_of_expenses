@@ -1,0 +1,21 @@
+.table {
+  width: 100%;
+
+  &, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding-inline: 4px;
+    padding-block: 8px;
+  }
+
+  th {
+    text-align: left;
+  }
+}
+
+.tableHead {
+  background-color: rgb(200, 200, 200);
+}

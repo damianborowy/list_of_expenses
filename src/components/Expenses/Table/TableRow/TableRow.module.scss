@@ -1,0 +1,11 @@
+.row {
+  &:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+  }
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

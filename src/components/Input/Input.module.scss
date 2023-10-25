@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 4px;
+}
+
+.errorText {
+  color: crimson;
+  margin-top: 4px;
+  display: block;
+  height: 18px;
+}
